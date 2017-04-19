@@ -2,7 +2,7 @@
   'use strict';
 
 var mongodb = require('mongodb');
-var uri = 'mongodb://root:root@localhost:27017/test';
+var uri = 'mongodb://hermosillo:herm0sill0@localhost:27017/hermosillo';
 
  mongodb.MongoClient.connect(uri, function(error, db){
    if(error){
